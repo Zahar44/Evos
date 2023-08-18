@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Application.cpp" />
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="gl.c" />
+    <ClCompile Include="Game.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Render\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Render\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowSize.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="Font.cpp">
+      <Filter>Render\UI\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Metric.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Chunk.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="RectangleMesh.cpp">
+      <Filter>Render\View\Primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="BoxMesh.cpp">
+      <Filter>Render\View\Primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="InstancedMesh.cpp">
+      <Filter>Render\View\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Render\View\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="CylinderMesh.cpp">
+      <Filter>Render\View\Primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="SphereMesh.cpp">
+      <Filter>Render\View\Primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="OrthoMesh.cpp">
+      <Filter>Render\View\Mesh</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Application.h" />
+    <ClInclude Include="Renderer.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Render\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="IView.h">
+      <Filter>Render\View</Filter>
+    </ClInclude>
+    <ClInclude Include="RigidView.h">
+      <Filter>Render\View</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Render\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboard.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxMesh.h">
+      <Filter>Render\View\Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowSize.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="View.h">
+      <Filter>Render\View</Filter>
+    </ClInclude>
+    <ClInclude Include="RectangleMesh.h">
+      <Filter>Render\View\Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="Random.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Font.h">
+      <Filter>Render\UI\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="TextView.h">
+      <Filter>Render\View</Filter>
+    </ClInclude>
+    <ClInclude Include="MetricsView.h">
+      <Filter>Render\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Metric.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="GroundGenerator.h">
+      <Filter>World\Generators</Filter>
+    </ClInclude>
+    <ClInclude Include="Chunk.h">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="TreeGenerator.h">
+      <Filter>World\Generators</Filter>
+    </ClInclude>
+    <ClInclude Include="Tree.h">
+      <Filter>World\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="IWorldObject.h">
+      <Filter>World\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="InstancedMesh.h">
+      <Filter>Render\View\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Render\View\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="InstancedView.h">
+      <Filter>Render\View</Filter>
+    </ClInclude>
+    <ClInclude Include="PerlinNoise.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="DayCycle.h">
+      <Filter>NaturalEffects</Filter>
+    </ClInclude>
+    <ClInclude Include="CylinderMesh.h">
+      <Filter>Render\View\Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="SphereMesh.h">
+      <Filter>Render\View\Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="Sun.h">
+      <Filter>NaturalEffects</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Game\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="MovementStrategy.h">
+      <Filter>Game\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="Wind.h">
+      <Filter>NaturalEffects</Filter>
+    </ClInclude>
+    <ClInclude Include="ChunkDecorator.h">
+      <Filter>World\Generators</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadPool.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="OrthoView.h">
+      <Filter>Render\View</Filter>
+    </ClInclude>
+    <ClInclude Include="ContainerView.h">
+      <Filter>Render\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="OrthoMesh.h">
+      <Filter>Render\View\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="UIModule.h">
+      <Filter>Render\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="TextContainer.h">
+      <Filter>Render\UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Render">
+      <UniqueIdentifier>{b82b6b02-9260-4a08-84b2-93a9fbc99550}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{4db89c4e-90e5-4506-bb68-6bf14b899108}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render\Shader">
+      <UniqueIdentifier>{97674bcd-aef2-40be-b26e-d2e31c51b44d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render\View">
+      <UniqueIdentifier>{51f668f4-33b2-4ef7-af97-fddbc90be329}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render\Camera">
+      <UniqueIdentifier>{a621011c-8606-437d-9cfa-6d4f936584dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{60dcca72-f9bc-4bd3-a4b8-4c52ea518770}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render\View\Primitives">
+      <UniqueIdentifier>{2575f399-a5d9-4e67-95cc-a391c949e233}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{a4343f48-8aca-4359-9a96-04a40248ebb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render\UI">
+      <UniqueIdentifier>{38a9bcd6-2684-4a09-bd0e-8a9a01256037}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render\UI\Text">
+      <UniqueIdentifier>{7583451c-85d4-4815-a82e-4587344626a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="World">
+      <UniqueIdentifier>{44b482be-3826-4fe7-b9ba-cde3e9b552e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="World\Generators">
+      <UniqueIdentifier>{9519015f-81a5-4628-b9c4-8c6487aaa2e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="World\Objects">
+      <UniqueIdentifier>{aa16b51a-1ccf-4824-a699-f070f8e33386}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render\View\Mesh">
+      <UniqueIdentifier>{6f6789c3-c56b-4e51-84be-ffceae1b9a8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NaturalEffects">
+      <UniqueIdentifier>{591e2891-5790-427c-9a0f-d10588905b2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Actors">
+      <UniqueIdentifier>{e04576ae-d2d2-48d9-9e96-a9b13f5b0111}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="default.vert">
+      <Filter>Render\Shader</Filter>
+    </None>
+    <None Include="default.frag">
+      <Filter>Render\Shader</Filter>
+    </None>
+    <None Include="ortho.frag">
+      <Filter>Render\Shader</Filter>
+    </None>
+    <None Include="ortho.vert">
+      <Filter>Render\Shader</Filter>
+    </None>
+    <None Include="default-instanced.vert">
+      <Filter>Render\Shader</Filter>
+    </None>
+    <None Include="wave-instanced.vert">
+      <Filter>Render\Shader</Filter>
+    </None>
+    <None Include="primitive-ortho.vert">
+      <Filter>Render\Shader</Filter>
+    </None>
+    <None Include="primitive-ortho.frag">
+      <Filter>Render\Shader</Filter>
+    </None>
+  </ItemGroup>
+</Project>
