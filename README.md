@@ -8,9 +8,9 @@ Currently in game implemented:
 5. Simple UI.
 
 # Goals
-1. Lear game development pipeline.
-2. Lear graphic rendering.
-3. Lear physics computing.
+1. Learn game development pipeline.
+2. Learn graphic rendering.
+3. Learn physics computing.
 
 # Proof Of Work
 ![Gif](https://github.com/Zahar44/Evos/blob/master/EvosPhysX/assets/ProofOfWork.gif)
